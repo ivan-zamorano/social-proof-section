@@ -21,7 +21,6 @@ body{
     display: grid;
     grid-template-rows: auto auto auto;
     grid-row-gap: 40px;
-    *border: 3px solid red;
 }
 
 .grid1{
@@ -49,7 +48,6 @@ body{
 
 .rate{
     display: grid;
-    *grid-template-rows: auto auto auto;
     grid-row-gap: 20px;
 }
 
@@ -57,7 +55,6 @@ body{
     background-color: hsl(300, 24%, 96%);
     padding: 20px 0;
     border-radius: 10px;
-    *border: 3px solid red;
 }
 
 .stars{
@@ -85,7 +82,6 @@ body{
 }
 
 .card2 h5{
-    *display: inline-block;
     float: left;
     margin: 8px 0 0 20px;
 }
@@ -129,7 +125,6 @@ color: hsl(228, 45%, 44%);
         background: url(../images/bg-pattern-top-desktop.svg) no-repeat,
         url(../images/bg-pattern-bottom-desktop.svg) top 150px left 250px no-repeat;
         text-align: center;
-        *border: 3px solid red;
     }
     
     .container{
@@ -142,20 +137,17 @@ color: hsl(228, 45%, 44%);
         justify-content: center;
         align-content: center;
         grid-row-gap: 40px;
-        *border: 3px solid red;
         
     }
 
     .grid1{
         margin: 0;
-        *border: 3px solid red;
     }
 
     .speech{
         width: 80%;
         text-align: left;
         margin: 0;
-        *border: 3px solid red;
     }
 
     .speech h1{
@@ -170,11 +162,8 @@ color: hsl(228, 45%, 44%);
     }
 
     .rate{
-        *justify-content: end;
         display: inline-block;
-        *float: right;
         width: 100%;
-        *border: 3px solid red;
     }
 
     .card1{
@@ -182,7 +171,6 @@ color: hsl(228, 45%, 44%);
         padding: 15px 0;
         margin-bottom: 20px;
         text-align: left;
-        *display: block;
         float: right;
     }
 
@@ -204,15 +192,10 @@ color: hsl(228, 45%, 44%);
         margin-right: 50px;
     }
 
-    .grid2{
-        *justify-content: center;
-        *border: 3px solid red;
-    }
 
     .grid3{
         grid-column: 1 / 3;
         justify-content: center;
-        *border: 3px solid red;
     }
 
 
